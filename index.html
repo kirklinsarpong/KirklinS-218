@@ -12,16 +12,16 @@
         <a-sky color="#87CEEB"></a-sky>
         <!-- Room -->
         <!-- Floor -->
-        <a-plane position="0 0 0" rotation="-90 0 0" width="10000" height="10000" color="#ccc"></a-plane>
+        <a-plane position="0 0 0" rotation="-90 0 0" width="10000" height="10000" src="floor-texture.jpg" repeat="100 100"></a-plane>
   
         <!-- Ceiling -->
-        <a-plane position="0 3 0" rotation="90 0 0" width="10" height="10" color="#ccc"></a-plane>
+        <a-box position="0 4 0" rotation="90 0 0" width="11" depth="0.3" height="10" color="#ccc"></a-box>
   
         <!-- Walls -->
-        <a-plane position="0 1.5 -5" width="10" height="3" color="#888"></a-plane> <!-- Back wall -->
-        <a-plane position="-5 1.5 0" rotation="0 90 0" width="10" height="3" color="#888"></a-plane> <!-- Left wall -->
-        <a-plane position="5 1.5 0" rotation="0 90 0" width="10" height="3" color="#888"></a-plane> <!-- Right wall -->
-        <a-plane position="0 1.5 5" width="10" height="3" color="#888"></a-plane> <!-- Front wall -->
+        <a-box position="0 1.5 -5" width="10" height="5" depth="0.5" color="#888"></a-box> <!-- Back wall -->
+        <a-box position="-5 1.5 -1" rotation="0 90 0" width="9"depth="0.5" height="5" color="#888"></a-box> <!-- Left wall -->
+        <a-box position="5 1.5 -1" rotation="0 90 0" width="9" depth="0.5" height="5" color="#888"></a-box> <!-- Right wall -->
+        <!-- <a-box position="0 1.5 5" width="10" height="3" color="#888"></a-box> Front wall -->
   
         <!-- TV -->
         <a-box position="0 1.5 -4.9" width="5" height="2.5" depth="0.1" color="#333"></a-box> <!-- TV screen -->
@@ -51,4 +51,4 @@
       </a-scene>
   
 </body>
-</html> 
+</html>
