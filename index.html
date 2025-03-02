@@ -10,45 +10,47 @@
     <a-scene>
         <!-- Sky -->
         <a-sky color="#87CEEB"></a-sky>
+
         <!-- Room -->
         <!-- Floor -->
         <a-plane position="0 0 0" rotation="-90 0 0" width="10000" height="10000" src="Diamonds Illustration.jpg" repeat="1000 1000"></a-plane>
-  
+
+        <!-- Carpet -->
+        <a-plane position="0 0.01 0" rotation="-90 0 0" width="4" height="6" src="carpet-texture.jpg" repeat="1 1"></a-plane>
+
         <!-- Ceiling -->
         <a-box position="0 4 0" rotation="90 0 0" width="11" depth="0.3" height="10" color="#ccc"></a-box>
-  
-        <!-- Walls -->
+
         <!-- Walls -->
         <a-box position="0 1.5 -5" width="10" height="5" depth="0.3" color="#888"></a-box> <!-- Back wall -->
-        <a-box position="-5 1.5 -1" rotation="0 90 0" width="9"depth="0.3" height="5" color="#888"></a-box> <!-- Left wall -->
+        <a-box position="-5 1.5 -1" rotation="0 90 0" width="9" depth="0.3" height="5" color="#888"></a-box> <!-- Left wall -->
         <a-box position="5 1.5 -1" rotation="0 90 0" width="9" depth="0.3" height="5" color="#888"></a-box> <!-- Right wall -->
-  
+
         <!-- TV -->
         <a-box position="0 1.5 -4.5" width="5" height="2.5" depth="0.1" color="#333"></a-box> <!-- TV screen -->
         <a-box position="0 2.75 -4.5" width="5.2" height="0.1" depth="0.2" color="#555"></a-box> <!-- TV top border -->
         <a-box position="0 0.25 -4.5" width="5.2" height="0.1" depth="0.2" color="#555"></a-box> <!-- TV bottom border -->
-  
+
         <!-- Speakers -->
         <a-box position="-3 1 -4.5" width="0.5" height="1" depth="0.1" color="#444"></a-box> <!-- Left speaker -->
         <a-box position="3 1 -4.5" width="0.5" height="1" depth="0.1" color="#444"></a-box> <!-- Right speaker -->
-  
+
         <!-- Center Table -->
         <a-cylinder position="0 0.5 0" radius="1" height="0.1" color="#654321"></a-cylinder> <!-- Table top -->
         <a-cylinder position="0 0.1 0" radius="0.1" height="0.8" color="#654321"></a-cylinder> <!-- Table leg -->
-  
+
         <!-- Chairs -->
         <a-box position="-1.5 0.3 1" width="0.8" height="0.6" depth="0.8" color="#964B00"></a-box> <!-- Chair 1 -->
-        <a-box position="1.5 0.3 1" width="0.8" height="0.6" depth="0.8" color="#964B00"></a-box> <!--  Chair 2 -->
+        <a-box position="1.5 0.3 1" width="0.8" height="0.6" depth="0.8" color="#964B00"></a-box> <!-- Chair 2 -->
         <a-box position="-1.5 0.3 -1" width="0.8" height="0.6" depth="0.8" color="#964B00"></a-box> <!-- Chair 3 -->
         <a-box position="1.5 0.3 -1" width="0.8" height="0.6" depth="0.8" color="#964B00"></a-box> <!-- Chair 4 -->
-  
+
         <!-- Lighting -->
         <a-light type="ambient" color="#FFF"></a-light>
         <a-light type="point" position="0 3 0" intensity="0.5"></a-light>
-  
+
         <!-- Camera -->
         <a-camera position="0 1.6 4"></a-camera>
-      </a-scene>
-  
+    </a-scene>
 </body>
 </html>
