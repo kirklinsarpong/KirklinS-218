@@ -1,7 +1,1 @@
-# KirklinS-218
-# KirklinS-218
-# KirklinS-218
-# KirklinS-218
-# KirklinS-218
-# KirklinS-218
-# KirklinS-218
+A-frame of a Milo tin on a table
